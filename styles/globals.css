@@ -21,11 +21,19 @@ nav {
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
 }
-nav a {
+.nav-link {
   margin-left: 12px;
 }
-nav .logo {
+.logo-link {
   margin-right: auto;
+}
+.logo-img {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='16.000000pt' height='16.000000pt' viewBox='0 0 16.000000 16.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cmetadata%3E%0ALogo image%0A%3C/metadata%3E%3Cg transform='translate(0.000000,16.000000) scale(0.001724,-0.001724)' fill='%2311497f' stroke='none'%3E%3Cpath d='M3629 9223 c-11 -3 -1442 -1424 -1493 -1483 -3 -3 -7 -18 -10 -32 -4 -25 172 -204 2006 -2038 1653 -1652 2016 -2010 2037 -2010 22 0 164 137 773 743 410 408 749 752 753 765 6 20 -239 268 -2003 2031 -1105 1105 -2018 2013 -2028 2018 -10 5 -26 8 -35 6z'/%3E%3Cpath d='M2339 4878 c-605 -609 -749 -758 -749 -779 0 -21 363 -390 2013 -2043 l2014 -2017 27 13 c29 12 1489 1466 1506 1499 6 9 7 26 3 36 -10 28 -4009 4022 -4038 4033 -26 10 -55 -19 -776 -742z'/%3E%3C/g%3E%3C/svg%3E");
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 footer {
   display: block;
@@ -39,6 +47,6 @@ footer {
   text-align: center;
 }
 .not-found a {
-  color: #4979ff;
+  color: #11497f;
   text-decoration: underline;
 }

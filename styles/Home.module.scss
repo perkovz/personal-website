@@ -1,3 +1,5 @@
+@import '/styles/variables';
+
 .profile {
   border-radius: 50%;;
 }
@@ -19,8 +21,13 @@
   width: 150px;
   padding: 8px 0;
   margin: 20px auto;
-  background: #11497f;
+  background-color: $blue;
   border-radius: 4px;
   color: white;
   text-align: center;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $blue-100;
+  }
 }

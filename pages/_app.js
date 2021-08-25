@@ -1,5 +1,5 @@
 import Layout from '../comps/Layout'
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import '../styles/grid.min.css'
 
 function MyApp({ Component, pageProps }) {

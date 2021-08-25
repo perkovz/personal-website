@@ -1,23 +1,29 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
     <>
-    <Head>
-      <title>Zvonimir Perkovic | Projects</title>
-      <meta name="keywords" content="Projects" />
-    </Head>
-    <div>
-      <h1>Featured Projects</h1>
-      <p>Some intro text</p>
+      <Head>
+        <title>Zvonimir Perkovic | Projects</title>
+        <meta name="keywords" content="Projects" />
+      </Head>
+
+      <header>
+        <h1>Featured Projects</h1>
+        <p>Some intro text</p>
+      </header>
 
       <section>
         <h2>Design and Development</h2>
 
         <article className="row">
-          <h3>my.clevelandclinic.org</h3>
-          <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          <div className="col align-self-center">
+            <h3>my.clevelandclinic.org</h3>
+            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          </div>
+
         </article>
 
         <article className="row">
@@ -52,33 +58,30 @@ const Projects = () => {
           <div className="col align-self-center">
 
           </div>
-          
         </article>
 
         <article className="row">
-        <div className="col align-self-center">
-        <h3>BCT Security</h3>
-          <p>Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</p>
-        </div>
           <div className="col align-self-center">
+            <h3>BCT Security</h3>
+            <p>Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</p>
+          </div>
           <div className="col align-self-center">
-            <Image src="/bct_mobile.png" className="img-hero" width={456} height={900} alt="Mobile phone with the BCT services homepage billboard" />
+            <div className="col align-self-center">
+              <Image src="/bct_mobile.png" className="img-hero" width={456} height={900} alt="Mobile phone with the BCT services homepage billboard" />
+            </div>
           </div>
-          </div>
-
-
         </article>
 
         <article className="row">
-        <div className="col align-self-center">
-        <h3>Polychem</h3>
-          <p>Polychem.com is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</p>
-          <p>Project is currently in the phase of populating product database.</p>
-        </div>
           <div className="col align-self-center">
-          <div className="col align-self-center">
-            <Image src="/polychem_hero.png" className="img-hero" width={1000} height={1400} alt="Tablet with Polychem's product page on the display." />
+            <h3>Polychem</h3>
+            <p>Polychem.com is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</p>
+            <p>Project is currently in the phase of populating product database.</p>
           </div>
+          <div className="col align-self-center">
+            <div className="col align-self-center">
+              <Image src="/polychem_hero.png" className="img-hero" width={1000} height={1400} alt="Tablet with Polychem's product page on the display." />
+            </div>
           </div>
         </article>
       </section>
@@ -104,10 +107,10 @@ const Projects = () => {
             <p>Role: Art Direction, Illustration, Motion Graphics</p>
           </div>
           <div className="col align-self-center">
-          <div className="youtube" data-embed="L4pgFWa_thk">
-            <div className="play-button"></div>
-            <img src="https://img.youtube.com/vi/L4pgFWa_thk/sddefault.jpg" />
-          </div>
+            <div className="youtube" data-embed="L4pgFWa_thk">
+              <div className="play-button"></div>
+              <img src="https://img.youtube.com/vi/L4pgFWa_thk/sddefault.jpg" />
+            </div>
           </div>
         </article>
 
@@ -117,14 +120,13 @@ const Projects = () => {
           <h3>DayGlo history Chapter 1</h3>
           <p>Role: Art Direction, Illustration, Motion Graphics</p>
           <div className="youtube" data-embed="fQ6u3IDm9WE">
-                <div className="play-button"></div>
+            <div className="play-button"></div>
             <img src="https://img.youtube.com/vi/fQ6u3IDm9WE/sddefault.jpg" />
           </div>
         </article>
       </section>
-    </div>
     </>
   );
 }
- 
+
 export default Projects;

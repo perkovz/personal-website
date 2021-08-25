@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import '/styles/variables';
 
 body {
-  background: #f2f2f2;
-  color: #333;
+  background: $gray-100;
+  color: $gray-800;
   font-family: 'Inter', sans-serif;
 }
+
 p {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+
 a {
   color: #333;
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
+
 .content {
   max-width: 960px;
   margin: 0 auto;
 }
+
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
@@ -43,17 +48,22 @@ nav {
   background-size: contain;
 }
 footer {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   padding: 30px 0;
-  margin-top: 60px;
+  margin: 3rem -1rem 0 -1rem;
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+
+.footer-links {
+  margin: 0 1rem;
+}
+
 .not-found {
   text-align: center;
 }
 .not-found a {
-  color: #11497f;
+  color: $blue;
   text-decoration: underline;
 }

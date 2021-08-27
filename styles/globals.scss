@@ -1,8 +1,17 @@
 @import '/styles/variables';
 
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: $gray-100;
-  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); 
+  background: $gray-gradient-100;
   color: $gray-800;
   font-family: 'Inter', sans-serif;
 }
@@ -13,33 +22,37 @@ p {
 }
 
 a {
-  color: #333;
+  color: $blue-500;
   text-decoration: none;
+  font-weight: 700;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $blue-200;
+  }
 }
 
 img {
   max-width: 100%;
 }
 
-.content {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
+  margin: 1rem auto 5rem;
+  padding: .75rem 0;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 1px solid #ddd;
+  align-items: center;
 }
+
 .nav-link {
-  margin-left: 12px;
+  margin-left: 1rem;
 }
+
 .logo-link {
   margin-right: auto;
 }
+
 .logo-img {
   background-image: url("data:image/svg+xml,%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='16.000000pt' height='16.000000pt' viewBox='0 0 16.000000 16.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cmetadata%3E%0ALogo image%0A%3C/metadata%3E%3Cg transform='translate(0.000000,16.000000) scale(0.001724,-0.001724)' fill='%2311497f' stroke='none'%3E%3Cpath d='M3629 9223 c-11 -3 -1442 -1424 -1493 -1483 -3 -3 -7 -18 -10 -32 -4 -25 172 -204 2006 -2038 1653 -1652 2016 -2010 2037 -2010 22 0 164 137 773 743 410 408 749 752 753 765 6 20 -239 268 -2003 2031 -1105 1105 -2018 2013 -2028 2018 -10 5 -26 8 -35 6z'/%3E%3Cpath d='M2339 4878 c-605 -609 -749 -758 -749 -779 0 -21 363 -390 2013 -2043 l2014 -2017 27 13 c29 12 1489 1466 1506 1499 6 9 7 26 3 36 -10 28 -4009 4022 -4038 4033 -26 10 -55 -19 -776 -742z'/%3E%3C/g%3E%3C/svg%3E");
   display: block;
@@ -48,17 +61,44 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
-  margin: 3rem -1rem 0 -1rem;
-  color: #777;
-  border-top: 1px solid #eaeaea;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 3rem 0;
+  margin-top: 3rem;
+  color: $gray-600;
+  border-top: 1px solid $gray-200;
+  font-size: .875rem;
+
+  @media only screen and (min-width: 1200px) {
+    flex-direction: row;
+    padding: 4rem 0;
+  }
+}
+
+.copyright {
+  text-align: center;
+
+  @media only screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .footer-links {
-  margin: 0 1rem;
+  margin: 0 -.75rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media only screen and (min-width: 1200px) {
+    margin: 0 -.75rem 0 2rem;
+  }
+}
+
+.footer-link {
+  margin: 0 .75rem;
 }
 
 .not-found {
@@ -67,4 +107,134 @@ footer {
 .not-found a {
   color: $blue;
   text-decoration: underline;
+}
+
+
+/* TYPOGRAPHY */
+.text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -.025rem;
+  max-width: 70ch;
+}
+
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
+ }
+
+.text-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
+ }
+
+ .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+ }
+
+ .text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+ }
+
+ .text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+ }
+
+ .text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+ }
+
+ .text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+ }
+
+ .text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+ }
+
+ .text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+ }
+
+ @media only screen and (min-width: 768px) {
+   .text-xl {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+   }
+  
+   .text-2xl {
+    font-size: 2rem;
+    line-height: 1;
+   }
+  
+   .text-3xl {
+    font-size: 2.5rem;
+    line-height: 1;
+   }
+  
+   .text-4xl {
+    font-size: 3rem;
+    line-height: 1;
+   }
+  
+   .text-5xl {
+    font-size: 4.5rem;
+    line-height: 1;
+   }
+}
+
+.bolded-list {
+  font-weight: 700;
+  list-style-type: "＃";
+  line-height: 1.5;
+
+  li {
+    padding-left: .25rem;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  
+  &__outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    @media (min-width: 480px) { 
+      width: 50%;
+    }
+
+    @media (min-width: 1024px) { 
+        width: 33.33%;
+    }
+  }
+
+  &__image {
+    position: relative;
+    height: 250px;
+  }
+
+  &__title {
+    margin: 1.5rem 0 1rem;
+    font-weight: 700;
+  }
 }

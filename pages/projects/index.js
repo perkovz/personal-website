@@ -10,9 +10,9 @@ const Projects = () => {
         <meta name="keywords" content="Projects" />
       </Head>
 
-      <header>
-        <h1>Featured Projects</h1>
-        <p>Some intro text</p>
+      <header className="text-center">
+        <h1 className="text-4xl">Projects and Case studies</h1>
+        <div className="text-xl">Some intro text</div>
       </header>
 
       <section>

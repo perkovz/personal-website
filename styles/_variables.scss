@@ -12,6 +12,8 @@ $gray-800: #343a40 !default;
 $gray-900: #232323 !default;
 $black:    #0c0c0c !default;
 
+$gray-gradient-100: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+
 $blue: #11497f;
 $blue-100: lighten($blue, 20%) !default;
 $blue-200: lighten($blue, 15%) !default;

@@ -22,7 +22,7 @@ const Projects = () => {
       </header>
 
       <section className="mb-7">
-        <header className="row justify-content-md-center text-center mb-3">
+        <header className="row justify-content-md-center text-center mb-5">
           <div className="col col-lg-8">
             <h2 className="text-3xl">Design Systems</h2>
             <p>For the past three years most of my focus was on Front-end development. However, in the last two years I started leaning towards design system work.</p>
@@ -85,7 +85,7 @@ const Projects = () => {
       <section className="mb-7">
         <header className="row justify-content-md-center text-center mb-5">
           <div className="col col-lg-8">
-            <h2 className="text-3xl">Web Development</h2>
+            <h2 className="text-3xl">App Development</h2>
             <p>Throughout my career web development is in the main focus. I've buit front-end any back-end solutions using Umbraco and Sitecore CMS's.</p>
           </div>
         </header>
@@ -116,85 +116,102 @@ const Projects = () => {
             </figure>
           </div>
         </article>
-
-        <article className="row mb-5">
-          <div className="col col-sm-6 col-md-4">
-            <div className="">
-              <h3 className="text-2xl">Polychem</h3>
-              <p>Polychem.com is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</p>
-              <p>Project is currently in the phase of populating product database.</p>
-            </div>
-            <div className="">
-              <div className="">
-                <Image src="/polychem_hero.png" className="img-hero" width={1000} height={1400} alt="Tablet with Polychem's product page on the display." />
-              </div>
-            </div>
-          </div>
-
-          <div className="col col-sm-6 col-md-4">
-            <div>
-              <h3 className="text-2xl">BCT Security</h3>
-              <p>Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</p>
-            </div>
-            <div className="">
-              <div className="">
-                <Image src="/bct_mobile.png" className="img-hero" width={456} height={900} alt="Mobile phone with the BCT services homepage billboard" />
-              </div>
-            </div>
-          </div>
-
-          <div className="col col-sm-6 col-md-4">
-            <div className="">
-              <h3 className="text-2xl">Rovisys</h3>
-              <p>https://www.rovisys.com/ is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</p>
-              <p>Project is currently in the phase of populating product database.</p>
-            </div>
-            <div className="">
-
-            </div>
-          </div>
-        </article>
-
       </section>
 
-      <section>
-        <h2>Motion graphics</h2>
-        <p>Even though I'm currently not working as a motion graphics designer I still feel attachement towards the next couple of slides. Here I would like to share animations made as a part of marketing campaign for DayGlo's EZ pigment. Idea was to represent historical continuum from the very beginnings to the cooperation with Reebok. My roles on the project included art direction, illustration and animation.</p>
+      <section className="row mb-5">
+        <div className="col-12">
+          <header className="row justify-content-md-center text-center mb-5">
+            <div className="col col-lg-8">
+              <h2 className="text-3xl">Web Development</h2>
+              <p>I need some text in here to balance out the sections.</p>
+            </div>
+          </header>
 
-        <article className="row">
-          <div className="col align-self-center"></div>
-          <div className="col align-self-center"></div>
-          <h3>DayGlo history Chapter 1</h3>
-          <p>Role: Art Direction, Illustration, Motion Graphics</p>
-          <div className="youtube" data-embed="JGmYkFWGX7M">
-            <div className="play-button"></div>
-            <img src="https://img.youtube.com/vi/JGmYkFWGX7M/sddefault.jpg" />
-          </div>
-        </article>
-
-        <article className="row">
-          <div className="col align-self-center">
-            <h3>DayGlo history Chapter 1</h3>
-            <p>Role: Art Direction, Illustration, Motion Graphics</p>
-          </div>
-          <div className="col align-self-center">
-            <div className="youtube" data-embed="L4pgFWa_thk">
-              <div className="play-button"></div>
-              <img src="https://img.youtube.com/vi/L4pgFWa_thk/sddefault.jpg" />
+          <div className="row">
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/polychem.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">Polychem</div>
+                <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/bct.jpg" width={60} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">BCT Security</div>
+                <div className="text-base px-2">Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/rovisys.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">Rovisys</div>
+                <div className="text-base px-2">https://www.rovisys.com/ is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</div>
+              </div>
             </div>
           </div>
-        </article>
 
-        <article className="row">
-          <div className="col align-self-center"></div>
-          <div className="col align-self-center"></div>
-          <h3>DayGlo history Chapter 1</h3>
-          <p>Role: Art Direction, Illustration, Motion Graphics</p>
-          <div className="youtube" data-embed="fQ6u3IDm9WE">
-            <div className="play-button"></div>
-            <img src="https://img.youtube.com/vi/fQ6u3IDm9WE/sddefault.jpg" />
+        </div>
+      </section>
+
+      <section className="row justify-content-center mb-5 p-5 bg-gray">
+        <div className="col-12 col-md-8 text-center mb-5">
+          <h2 className="text-3xl">Check out my other projects on Behance</h2>
+          <div className="">
+            <Link href="/projects">
+              <a className="btn-link text text-lg" href="https://www.behance.net/zperkovic">go to Behance</a>
+            </Link>
           </div>
-        </article>
+        </div>
+      </section>
+
+      <section className="row mb-5">
+        <div className="col-12">
+          <header className="row justify-content-md-center text-center mb-5">
+            <div className="col col-lg-8">
+              <h2 className="text-3xl">Motion Graphics</h2>
+              <p>Even though I'm currently not working as a motion graphics designer I still feel attachement towards the next couple of slides. Here I would like to share animations made as a part of marketing campaign for DayGlo's EZ pigment. Idea was to represent historical continuum from the very beginnings to the cooperation with Reebok. My roles on the project included art direction, illustration and animation.</p>
+            </div>
+          </header>
+
+          <div className="row">
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/dglo-1.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">DayGlo history Chapter 1</div>
+                <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/dglo-2.jpg" width={60} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">DayGlo history Chapter 2</div>
+                <div className="text-base px-2">Glo glo glo</div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div className="card text-center">
+                <div className="card__image">
+                  <Image className="" src="/dglo-3.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                </div>
+                <div className="card__title text-xl">DayGlo history Chapter 3</div>
+                <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </section>
 
       <section className="row mb-5">

@@ -105,10 +105,10 @@ export default function Home() {
           </figure>
         </div>
         <div className="col-12 text-center mb-5">
-          <h2 className="text-4xl">Next step - My projects</h2>
+          <h2 className="text-4xl">Next</h2>
           <div className="">
             <Link href="/projects">
-              <a className="btn-link text text-lg">Check out some of my projects here or on the sites below.</a>
+              <a className="btn-link text text-lg">go to the projects page</a>
             </Link>
           </div>
         </div>

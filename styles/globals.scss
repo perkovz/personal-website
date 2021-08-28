@@ -8,6 +8,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   background: $gray-gradient-100;
   color: $gray-800;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -31,6 +33,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 figcaption {
@@ -159,5 +165,41 @@ footer {
   &__title {
     margin: 1.5rem 0 1rem;
     font-weight: 700;
+  }
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.mb-7 {
+  margin-bottom: 7rem;
+}
+
+.mb-8 {
+  margin-bottom: 8rem;
+}
+
+@media (min-width: 1200px) { 
+  .mb-6 {
+    margin-bottom: 8rem;
+  }
+  
+  .mb-7 {
+    margin-bottom: 9rem;
+  }
+  
+  .mb-8 {
+    margin-bottom: 10rem;
+  }
+
+  .offgrid {
+    &-left {
+      margin-left: -25%;
+    }
+  
+    &-right {
+      margin-right: -100%;
+    }
   }
 }

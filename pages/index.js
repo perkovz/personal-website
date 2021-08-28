@@ -27,7 +27,7 @@ export default function Home() {
             <div className="card__inner mb-5">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">BCT Alarm systems</div>
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="card__inner mb-5">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/dreambook_hero.png" width={444} height={500} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/dreambook_hero.png" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">Dream book</div>
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
@@ -45,7 +45,7 @@ export default function Home() {
             <div className="card__inner mb-5">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/provider_hero.png" width={500} height={288} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/provider_hero.png" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">Provider services</div>
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>

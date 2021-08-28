@@ -32,28 +32,28 @@ const Projects = () => {
         <article className="row mb-6">
           <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>System architecture</h3>
             <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
           </div>
           <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>Component architecture</h3>
             <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
           </div>
           <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>Style libraries</h3>
             <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
           </div>
           <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>Documentation</h3>
             <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
@@ -131,7 +131,7 @@ const Projects = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/polychem.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/polychem.jpg" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">Polychem</div>
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
@@ -140,7 +140,7 @@ const Projects = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/bct.jpg" width={60} height={400} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">BCT Security</div>
                 <div className="text-base px-2">Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</div>
@@ -149,7 +149,7 @@ const Projects = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/rovisys.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/rovisys.jpg" layout="fill" objectFit="contain" alt="" />
                 </div>
                 <div className="card__title text-xl">Rovisys</div>
                 <div className="text-base px-2">https://www.rovisys.com/ is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</div>
@@ -176,36 +176,36 @@ const Projects = () => {
           <header className="row justify-content-md-center text-center mb-5">
             <div className="col col-lg-8">
               <h2 className="text-3xl">Motion Graphics</h2>
-              <p>Even though I'm currently not working as a motion graphics designer I still feel attachement towards the next couple of slides. Here I would like to share animations made as a part of marketing campaign for DayGlo's EZ pigment. Idea was to represent historical continuum from the very beginnings to the cooperation with Reebok. My roles on the project included art direction, illustration and animation.</p>
+              <p>Even though I'm not working as a motion graphics designer for some time now I still feel attachement and attraction towards the motion. Here I would like to share animations made as a part of marketing campaign for DayGlo's EZ pigment. Idea was to represent historical continuum from the very beginnings to the cooperation with Reebok. My roles on the project included art direction, illustration and animation.</p>
             </div>
           </header>
 
           <div className="row">
             <div className="col-12 col-lg-4 mb-5">
               <div className="text-center">
-                <div class="" width="640"
-                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1><img src=/dglo-1.jpg alt='Dayglo history chapter 1'><span>▶</span></a>" frameborder="0"></iframe>
+                <div width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1><img src=/dglo-1.jpg alt='Dayglo history chapter 1'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 1</div>
-                <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>
+                <div className="text-base px-2">Early days of DayGlo. Exploration and the birth of flourescent pigment.</div>
               </div>
             </div>
             <div className="col-12 col-lg-4 mb-5">
               <div className="text-center">
-                <div class="" width="640"
-                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1><img src=/dglo-2.jpg alt='Dayglo history chapter 2'><span>▶</span></a>" frameborder="0"></iframe>
+                <div width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1><img src=/dglo-2.jpg alt='Dayglo history chapter 2'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 2</div>
-                <div className="text-base px-2">Glo glo glo</div>
+                <div className="text-base px-2">Second stage starting 1946. Dayglo established in Cleveland, OH.</div>
               </div>
             </div>
             <div className="col-12 col-lg-4 mb-5">
               <div className="text-center">
-                <div class="" width="640"
-                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1><img src=/dglo-3.jpg alt='Dayglo history chapter 3'><span>▶</span></a>" frameborder="0"></iframe>
+                <div width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1><img src=/dglo-3.jpg alt='Dayglo history chapter 3'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 3</div>
-                <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>
+                <div className="text-base px-2">Modern days and the science behind flourescent pigments.</div>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const Projects = () => {
 
       <header className="row justify-content-md-center text-center mb-6">
         <div className="col col-lg-8 mb-4">
-          <h1 className="text-4xl">Projects and Case studies</h1>
+          <h1 className="text-4xl">Projects</h1>
           <div className="text mb-5">I worked on the projects that scoped from single page apps to large websites culminating my current work for Cleveland Clinic.</div>
         </div>
         <figure>
@@ -181,28 +181,28 @@ const Projects = () => {
           </header>
 
           <div className="row">
-            <div className="col-12 col-sm-6 col-lg-4">
-              <div className="card text-center">
-                <div className="card__image">
-                  <Image className="" src="/dglo-1.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+            <div className="col-12 col-lg-4 mb-5">
+              <div className="text-center">
+                <div class="" width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1><img src=/dglo-1.jpg alt='Dayglo history chapter 1'><span>▶</span></a>" frameborder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 1</div>
                 <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-lg-4">
-              <div className="card text-center">
-                <div className="card__image">
-                  <Image className="" src="/dglo-2.jpg" width={60} height={400} layout="fill" objectFit="contain" alt="" />
+            <div className="col-12 col-lg-4 mb-5">
+              <div className="text-center">
+                <div class="" width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1><img src=/dglo-2.jpg alt='Dayglo history chapter 2'><span>▶</span></a>" frameborder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 2</div>
                 <div className="text-base px-2">Glo glo glo</div>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-lg-4">
-              <div className="card text-center">
-                <div className="card__image">
-                  <Image className="" src="/dglo-3.jpg" width={600} height={400} layout="fill" objectFit="contain" alt="" />
+            <div className="col-12 col-lg-4 mb-5">
+              <div className="text-center">
+                <div class="" width="640"
+                  height="360" data-embed="JGmYkFWGX7M"><iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1><img src=/dglo-3.jpg alt='Dayglo history chapter 3'><span>▶</span></a>" frameborder="0"></iframe>
                 </div>
                 <div className="card__title text-xl">DayGlo history Chapter 3</div>
                 <div className="text-base px-2">Role: Art Direction, Illustration, Motion Graphics</div>

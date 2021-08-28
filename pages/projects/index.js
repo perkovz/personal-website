@@ -10,22 +10,52 @@ const Projects = () => {
         <meta name="keywords" content="Projects" />
       </Head>
 
-      <header className="text-center">
-        <h1 className="text-4xl">Projects and Case studies</h1>
-        <div className="text-xl">Some intro text</div>
+      <header className="row justify-content-md-center text-center mb-5">
+        <div className="col col-lg-8 mb-4">
+          <h1 className="text-4xl">Projects and Case studies</h1>
+          <div className="text-xl mb-5">I worked on the projects that scoped from single page apps to large websites culminating my current work for Cleveland Clinic.</div>
+        </div>
+        <figure>
+          <Image src="/design_to_dev_process.jpg" className="img-hero" width={1140} height={617} alt="Figma project full view" />
+          <figcaption>How we organized our design to development process.</figcaption>
+        </figure>
       </header>
 
       <section>
-        <h2>Design and Development</h2>
+        <header className="row justify-content-md-center text-center mb-3">
+          <div className="col col-lg-8">
+            <h2 className="text-3xl">Design Systems</h2>
+            <p>For the past three years most of my focus was on Front-end development. However, in the last two years I started leaning towards design system work.</p>
+          </div>
+        </header>
 
+        <article className="row">
+          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center">
+            <h3>my.clevelandclinic.org</h3>
+            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          </div>
+          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center">
+            <h3>my.clevelandclinic.org</h3>
+            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          </div>
+          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center">
+            <h3>my.clevelandclinic.org</h3>
+            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          </div>
+          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center">
+            <h3>my.clevelandclinic.org</h3>
+            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+          </div>
+        </article>
+      </section>
+
+      <section>
         <article className="row">
           <div className="col align-self-center">
             <h3>my.clevelandclinic.org</h3>
             <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
           </div>
-
         </article>
-
         <article className="row">
           <div className="col align-self-center">
             <h3>Dreambook</h3>
@@ -124,6 +154,17 @@ const Projects = () => {
             <img src="https://img.youtube.com/vi/fQ6u3IDm9WE/sddefault.jpg" />
           </div>
         </article>
+      </section>
+
+      <section className="row mb-5">
+        <div className="col-12 text-center mb-5">
+          <h2 className="text-4xl">Contact me</h2>
+          <div className="">
+            <Link href="/projects">
+              <a className="btn-link text text-lg" href="/mailto:%20zperkovi@gmail.com">via Email here</a>
+            </Link>
+          </div>
+        </div>
       </section>
     </>
   );

@@ -16,6 +16,7 @@ export default function Home() {
           <Image className={styles.profile} src="/profile.jpg" width={96} height={96} alt="profile picture" />
           <h1 className={styles.title}>I design and develop apps, websites, and systems.</h1>
           <p className="text">Over the years, I have had the honor to help clients ranging from startups to large corporations. My core professional interests are Web performance, Design systems, and Web development.</p>
+          <p className="text">I am currently working for Cleveland Clinic, where my focus includes Website performance, Design systems, and JAM stack web development.</p>
         </div>
       </header>
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <div className="card__image">
                   <Image className="" src="/bct_mobile.png" width={228} height={450} layout="fill" objectFit="contain" alt="" />
                 </div>
-                <div className="card__title text-xl">Cleveland Clinic</div>
+                <div className="card__title text-xl">BCT Alarm systems</div>
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
               </div>
             </div>
@@ -97,22 +98,19 @@ export default function Home() {
       </section>
 
       <section className="row mb-5">
-        <div className="col-12 text-center">
-          <h2 className="text-4xl">Contact</h2>
+        <div className="col-12 mb-5">
+          <figure>
+            <Image className="" src="/component_architecture.jpg" quality="100" width={1140} height={712} alt="Component architecture in Figma." />
+            <figcaption>How we achieve mirroring effect in Figma.</figcaption>
+          </figure>
+        </div>
+        <div className="col-12 text-center mb-5">
+          <h2 className="text-4xl">Next step - My projects</h2>
           <div className="">
-            <Link href="https://principlesyou.com/share/TgBTBq8-UUrZ6cs" target="_blank">
-              <a className="btn-link">Send me an email</a>
+            <Link href="/projects">
+              <a className="btn-link text text-lg">Check out some of my projects here or on the sites below.</a>
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="row">
-        <div className="col-12">
-          <h2 className="text-4xl">Next</h2>
-          <Link href="/projects/">
-            <a className={styles.btn}>Projects</a>
-          </Link>
         </div>
       </section>
     </>

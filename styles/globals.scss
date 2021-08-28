@@ -1,4 +1,5 @@
 @import '/styles/variables';
+@import 'styles/typography';
 
 * {
   box-sizing: border-box;
@@ -14,11 +15,6 @@ body {
   background: $gray-gradient-100;
   color: $gray-800;
   font-family: 'Inter', sans-serif;
-}
-
-p {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 a {
@@ -37,6 +33,10 @@ img {
   max-width: 100%;
 }
 
+figcaption {
+  font-weight: 700;
+}
+
 nav {
   margin: 1rem auto 5rem;
   padding: .75rem 0;
@@ -47,6 +47,10 @@ nav {
 
 .nav-link {
   margin-left: 1rem;
+
+  @media only screen and (min-width: 768px) {
+    margin-left: 2rem;
+  }
 }
 
 .logo-link {
@@ -107,87 +111,6 @@ footer {
 .not-found a {
   color: $blue;
   text-decoration: underline;
-}
-
-
-/* TYPOGRAPHY */
-.text {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  letter-spacing: -.025rem;
-  max-width: 70ch;
-}
-
-.text-xs {
-  font-size: .75rem;
-  line-height: 1rem;
- }
-
-.text-sm {
-  font-size: .875rem;
-  line-height: 1.25rem;
- }
-
- .text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
- }
-
- .text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
- }
-
- .text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
- }
-
- .text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
- }
-
- .text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
- }
-
- .text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
- }
-
- .text-5xl {
-  font-size: 3rem;
-  line-height: 1;
- }
-
- @media only screen and (min-width: 768px) {
-   .text-xl {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-   }
-  
-   .text-2xl {
-    font-size: 2rem;
-    line-height: 1;
-   }
-  
-   .text-3xl {
-    font-size: 2.5rem;
-    line-height: 1;
-   }
-  
-   .text-4xl {
-    font-size: 3rem;
-    line-height: 1;
-   }
-  
-   .text-5xl {
-    font-size: 4.5rem;
-    line-height: 1;
-   }
 }
 
 .bolded-list {

@@ -140,27 +140,6 @@ footer {
   flex-direction: column;
   width: 100%;
   position: relative;
-  
-  &__outer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  &__inner {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-    @media (min-width: 480px) { 
-      width: 50%;
-    }
-
-    @media (min-width: 1024px) { 
-        width: 33.33%;
-    }
-  }
 
   &__image {
     position: relative;

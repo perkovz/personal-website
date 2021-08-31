@@ -13,7 +13,7 @@ const Projects = () => {
       <header className="row justify-content-md-center text-center mb-6">
         <div className="col col-lg-8 mb-4">
           <h1 className="text-4xl">Projects</h1>
-          <div className="text mb-5">I worked on the projects that scoped from single page apps to large websites culminating my current work for Cleveland Clinic.</div>
+          <div className="text mb-5">I worked on the projects that scoped from small single-page apps to huge data-driven websites, culminating my current work for Cleveland Clinic. You will be taken back in time as you scroll down the page, from the most recent to my older projects. </div>
         </div>
         <figure>
           <Image src="/design_to_dev_process.jpg" className="img-hero" width={1140} height={617} alt="Figma project full view" />
@@ -30,33 +30,33 @@ const Projects = () => {
         </header>
 
         <article className="row mb-6">
-          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
+          <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
               <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>System architecture</h3>
-            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+            <p>Applying systematic thinking to anticipate how a system will be used and predicting future needs.</p>
           </div>
-          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
+          <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
               <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
-            <h3>Component architecture</h3>
-            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+            <h3>Patterns and libraries</h3>
+            <p>Recognizing patterns across multiple products and style guides and creating component libraries that match those patterns.</p>
           </div>
-          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
+          <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
               <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
-            <h3>Style libraries</h3>
-            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+            <h3>Communication and collaboration</h3>
+            <p>Caring about helping and mentoring other designers and working closely with developers, articulately sharing ideas and business needs. </p>
           </div>
-          <div className="col col-sm-6 col-lg-4 col-xl-3 align-self-center text-center">
+          <div className="col-12 col-sm-6 col-lg-4 col-xl-3 text-center">
             <div className="card__image">
               <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
             </div>
             <h3>Documentation</h3>
-            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org.</p>
+            <p>Organizing and documenting past, present, and future design systems work.</p>
           </div>
         </article>
         <article className="row">
@@ -85,8 +85,8 @@ const Projects = () => {
       <section className="mb-7">
         <header className="row justify-content-md-center text-center mb-5">
           <div className="col col-lg-8">
-            <h2 className="text-3xl">App Development</h2>
-            <p>Throughout my career web development is in the main focus. I've buit front-end any back-end solutions using Umbraco and Sitecore CMS's.</p>
+            <h2 className="text-3xl">Product Design and Development</h2>
+            <p>I was responsible for creating, iterating, and delivering visual journeys that provided delightful experiences to our users and visitors. Paired with a back-end developer, we solved complex problems in the residential construction and facility management spaces.</p>
           </div>
         </header>
 
@@ -98,17 +98,21 @@ const Projects = () => {
           </div>
           <div className="col-12 col-md-6 align-self-center">
             <h3 className="text-2xl">Dream book</h3>
-            <p>Somewhere between Pinterest and Houzzz, Dream book was designed and developed for the future homeowners.</p>
-            <p>Dream book is a web application that serves as a tool for interior and exterior design, home improvement and idea generation. Main purpose of the app is to streamline the proccess of house design, through visual project management of your dream home.</p>
-            <p>My small contribution was UI design and development.</p>
+            <p>Somewhere between Pinterest and Houzz, <a href="http://dreambook.us/" target="_blank" rel="noreferrer">Dream book</a> was designed and developed for future homeowners.</p>
+            <p>Dream book is a web application that serves as a tool for interior and exterior design, home improvement, and idea generation. The app's primary purpose is to streamline house design through visual project management of your dream home.</p>
+            <p><a href="https://www.behance.net/gallery/73263457/Dream-book-web-app-Case-Study" target="_blank" rel="noreferrer">My small contribution</a> consisted of:</p>
+            <ul className="bolded-list">
+              <li>UI design (Adobe XD)</li>
+              <li>UI development (JavaScript, jQuery)</li>
+            </ul>
           </div>
         </article>
 
         <article className="row mb-6">
           <div className="col-12 col-md-6 align-self-center">
             <h3 className="text-2xl">Provider Services</h3>
-            <p>Provider Services proprietary software called Cure is a web applicaiton for managing insurance data, patients and long-term care facilities.</p>
-            <p>My role in the application update was front-end development, UX/UI design of the new features, and redesign of the current ones. Read the case study here.</p>
+            <p>Provider Services proprietary software called Cure is a web application for managing insurance data, patients, and long-term care facilities.</p>
+            <p>My role in the application update was front-end development, UX, and UI design. Read the case study <a href="https://www.behance.net/gallery/73221473/Cure-Webapp-UX-Design-Case-Study" target="_blank" rel="noreferrer">here</a>.</p>
           </div>
           <div className="col-12 col-md-6 align-self-center offgrid">
             <figure className="offgrid-right">
@@ -123,12 +127,12 @@ const Projects = () => {
           <header className="row justify-content-md-center text-center mb-5">
             <div className="col col-lg-8">
               <h2 className="text-3xl">Web Development</h2>
-              <p>I need some text in here to balance out the sections.</p>
+              <p>As a part of an agile development team, I'm building and working on enterprise-grade software systems built on top of the Microsoft .NET stack. As a front-end developer, I believe in web standards, performance, and accessibility to create more inclusive and faster experiences for our visitors.</p>
             </div>
           </header>
 
           <div className="row">
-            <div className="col-12 col-sm-6 col-lg-4">
+            <div className="col-12 col-sm-6 col-lg-4 mb-5">
               <div className="card text-center">
                 <div className="card__image">
                   <Image className="" src="/polychem.jpg" layout="fill" objectFit="contain" alt="" />
@@ -137,7 +141,7 @@ const Projects = () => {
                 <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-lg-4">
+            <div className="col-12 col-sm-6 col-lg-4 mb-5">
               <div className="card text-center">
                 <div className="card__image">
                   <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="" />
@@ -176,7 +180,7 @@ const Projects = () => {
           <header className="row justify-content-md-center text-center mb-5">
             <div className="col col-lg-8">
               <h2 className="text-3xl">Motion Graphics</h2>
-              <p>Even though I'm not working as a motion graphics designer for some time now I still feel attachement and attraction towards the motion. Here I would like to share animations made as a part of marketing campaign for DayGlo's EZ pigment. Idea was to represent historical continuum from the very beginnings to the cooperation with Reebok. My roles on the project included art direction, illustration and animation.</p>
+              <p>Even though I'm no longer working as a motion graphics designer, I still feel attachment and attraction towards my old projects. I want to share three short animated movies we made for DayGlo's color corp. The idea was to represent a historical continuum from the very beginnings to the cooperation with Reebok. My roles in the project included art direction, illustration, and animation.</p>
             </div>
           </header>
 
@@ -186,8 +190,8 @@ const Projects = () => {
                 <div width="640"
                   height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/JGmYkFWGX7M?rel=0&amp;showinfo=0&amp;autoplay=1><img src=/dglo-1.jpg alt='Dayglo history chapter 1'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
-                <div className="card__title text-xl">DayGlo history Chapter 1</div>
-                <div className="text-base px-2">Early days of DayGlo. Exploration and the birth of flourescent pigment.</div>
+                <div className="card__title text-xl">DayGlo history chapter 1</div>
+                <div className="text-base px-2">Early days of DayGlo. Exploration and the birth of fluorescent pigment.</div>
               </div>
             </div>
             <div className="col-12 col-lg-4 mb-5">
@@ -195,8 +199,8 @@ const Projects = () => {
                 <div width="640"
                   height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/L4pgFWa_thk?rel=0&showinfo=0&autoplay=1><img src=/dglo-2.jpg alt='Dayglo history chapter 2'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
-                <div className="card__title text-xl">DayGlo history Chapter 2</div>
-                <div className="text-base px-2">Second stage starting 1946. Dayglo established in Cleveland, OH.</div>
+                <div className="card__title text-xl">DayGlo history chapter 2</div>
+                <div className="text-base px-2">Second stage starting 1946. Dayglo was established in Cleveland, OH.</div>
               </div>
             </div>
             <div className="col-12 col-lg-4 mb-5">
@@ -204,8 +208,8 @@ const Projects = () => {
                 <div width="640"
                   height="360" data-embed="JGmYkFWGX7M"><iframe allowFullScreen="" loading="lazy" src="https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1" srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fQ6u3IDm9WE?rel=0&showinfo=0&autoplay=1><img src=/dglo-3.jpg alt='Dayglo history chapter 3'><span>▶</span></a>" frameBorder="0"></iframe>
                 </div>
-                <div className="card__title text-xl">DayGlo history Chapter 3</div>
-                <div className="text-base px-2">Modern days and the science behind flourescent pigments.</div>
+                <div className="card__title text-xl">DayGlo history chapter 3</div>
+                <div className="text-base px-2">Modern days and the science behind fluorescent pigments.</div>
               </div>
             </div>
           </div>

@@ -91,7 +91,7 @@ export default function Home() {
 
         <div className="col-12 col-sm-6 col-md-4">
           <h3 className="text-2xl">03. JAM Stack</h3>
-          <p>JAM stack development is my newest passion. Currently working on smaller to mid-size projects using these technologies:</p>
+          <p>JAM stack development is my newest passion. Currently working on smaller to mid-size projects using:</p>
           <ul className="bolded-list">
             <li>Next.js</li>
             <li>Eleventy</li>

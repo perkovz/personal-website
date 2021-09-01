@@ -9,20 +9,6 @@ const Projects = () => {
         <title>Zvonimir Perkovic | Projects</title>
         <meta name="keywords" content="projects, design system, ux design, web development" />
         <meta name="description" content="My current design system project at Cleveland Clinic, and some older UX, web development and motion graphics work." />
-
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109239831-1"></script>
-        <script dangerouslySetInnerHTML={
-          {
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-109239831-1');
-          `}
-        }>
-        </script>
       </Head>
 
       <header className="row justify-content-md-center text-center mb-6">

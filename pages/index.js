@@ -10,20 +10,6 @@ export default function Home() {
         <title>Zvonimir Perkovic | Home</title>
         <meta name="keywords" content="personal website, portfolio" />
         <meta name="description" content="Hi and welcome to my portfolio site. My name is Zvonimir, I'm a Front-end developer from Osijek, Croatia living and workig in Cleveland, Ohio." />
-
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109239831-1"></script>
-        <script dangerouslySetInnerHTML={
-          {
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-109239831-1');
-          `}
-        }>
-        </script>
       </Head>
 
       <header className="row mb-5">

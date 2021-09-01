@@ -221,11 +221,7 @@ const Projects = () => {
       <section className="row mb-5">
         <div className="col-12 text-center mb-5">
           <h2 className="text-4xl">Contact me</h2>
-          <div className="">
-            <Link href="/projects">
-              <a className="btn-link text text-lg" href="/mailto:%20zperkovi@gmail.com">via Email here</a>
-            </Link>
-          </div>
+          <a className="btn-link text text-lg" href="mailto:zperkovi@gmail.com">via Email here</a>
         </div>
       </section>
     </>

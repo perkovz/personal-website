@@ -7,7 +7,8 @@ const Projects = () => {
     <>
       <Head>
         <title>Zvonimir Perkovic | Projects</title>
-        <meta name="keywords" content="Projects" />
+        <meta name="keywords" content="projects, design system, ux design, web development" />
+        <meta name="description" content="My current design system project at Cleveland Clinic, and some older UX, web development and motion graphics work." />
       </Head>
 
       <header className="row justify-content-md-center text-center mb-6">
@@ -111,7 +112,7 @@ const Projects = () => {
           <div className="col-12 col-md-6 align-self-center">
             <h3 className="text-2xl">Provider Services</h3>
             <p>Provider Services proprietary software called Cure is a web application for managing insurance data, patients, and long-term care facilities.</p>
-            <p>My role in the application update was front-end development, UX, and UI design. Read the case study <a href="https://www.behance.net/gallery/73221473/Cure-Webapp-UX-Design-Case-Study" target="_blank" rel="noreferrer">here</a>.</p>
+            <p>My role in the application update was front-end development, UX, and UI design. <a href="https://www.behance.net/gallery/73221473/Cure-Webapp-UX-Design-Case-Study" target="_blank" rel="noreferrer">Read the case study here.</a></p>
           </div>
           <div className="col-12 col-md-6 align-self-center offgrid">
             <figure className="offgrid-right">

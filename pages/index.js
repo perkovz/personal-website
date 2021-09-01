@@ -8,7 +8,8 @@ export default function Home() {
     <>
       <Head>
         <title>Zvonimir Perkovic | Home</title>
-        <meta name="keywords" content="Welcome" />
+        <meta name="keywords" content="personal website, portfolio" />
+        <meta name="description" content="Hi and welcome to my portfolio site. My name is Zvonimir, I'm a Front-end developer from Osijek, Croatia living and workig in Cleveland, Ohio." />
       </Head>
 
       <header className="row mb-5">

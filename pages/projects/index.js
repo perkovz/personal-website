@@ -13,11 +13,11 @@ const Projects = () => {
       <header className="row justify-content-md-center text-center mb-6">
         <div className="col col-lg-8 mb-4">
           <h1 className="text-4xl">Projects</h1>
-          <div className="text mb-5">I worked on the projects that scoped from small single-page apps to huge data-driven websites, culminating my current work for Cleveland Clinic. You will be taken back in time as you scroll down the page, from the most recent to my older projects. </div>
+          <div className="text mb-5">I worked on the projects that scoped from small single-page apps to huge data-driven websites, culminating my current work for Cleveland Clinic. As you scroll down the page, you will be taken back in time, from the most recent to my older projects.</div>
         </div>
         <figure>
           <Image src="/design_to_dev_process.jpg" className="img-hero" width={1140} height={617} alt="Figma project full view" />
-          <figcaption>How we organized our design to development process.</figcaption>
+          <figcaption>An example of design to development process.</figcaption>
         </figure>
       </header>
 
@@ -25,35 +25,35 @@ const Projects = () => {
         <header className="row justify-content-md-center text-center mb-5">
           <div className="col col-lg-8">
             <h2 className="text-3xl">Design Systems</h2>
-            <p>For the past three years most of my focus was on Front-end development. However, in the last two years I started leaning towards design system work.</p>
+            <p>A design system is a set of processes where designers and developers do their best work creating scalable collections of reusable patterns organized in styles and components. I think that sums it up :)</p>
           </div>
         </header>
 
         <article className="row mb-6">
           <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/systems-architecture.png" layout="fill" objectFit="contain" alt="Image of mobile phone with a list on the screen." />
             </div>
             <h3>System architecture</h3>
             <p>Applying systematic thinking to anticipate how a system will be used and predicting future needs.</p>
           </div>
           <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/patterns-libraries.png" layout="fill" objectFit="contain" alt="Image of mobile phone with the Figma library dashboard on the screen." />
             </div>
             <h3>Patterns and libraries</h3>
             <p>Recognizing patterns across multiple products and style guides and creating component libraries that match those patterns.</p>
           </div>
           <div className="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/collaboration.png" layout="fill" objectFit="contain" alt="Image of mobile phone with description of the team on the screen." />
             </div>
             <h3>Communication and collaboration</h3>
             <p>Caring about helping and mentoring other designers and working closely with developers, articulately sharing ideas and business needs. </p>
           </div>
           <div className="col-12 col-sm-6 col-lg-4 col-xl-3 text-center">
             <div className="card__image">
-              <Image className="" src="/bct_mobile.png" layout="fill" objectFit="contain" alt="" />
+              <Image className="" src="/documentation.png" layout="fill" objectFit="contain" alt="Image of mobile phone with asset library on the screen." />
             </div>
             <h3>Documentation</h3>
             <p>Organizing and documenting past, present, and future design systems work.</p>
@@ -61,22 +61,21 @@ const Projects = () => {
         </article>
         <article className="row">
           <div className="col-12 col-lg-7 align-self-center ">
-            <h3>my.clevelandclinic.org design system work</h3>
-            <p>I'm currently a part of the large machinery that runs my.clevelandclinic.org. My primary responsibility is front-end development.</p>
-            <p>When I'm not developing Sitecore components I creating front-end libraries.</p>
-            <p>Design system project is a continous discovery and integration of teams and processes in a multi siloed environment.</p>
+            <h3 className="text-2xl">Design systems in progress</h3>
+            <p>At the Cleveland Clinic, we started the design system discovery process a year and a half ago. On that path, we encountered all the challenges one might expect from a multi-siloed environment of considerable size:</p>
             <ul className="bolded-list">
-              <li>Tools</li>
-              <li>Tokens</li>
-              <li>Environments</li>
-              <li>Libraries</li>
-              <li>Collaboration</li>
+              <li>uncontrolably large product inventory</li>
+              <li>collaboration issues</li>
+              <li>clashing priorities</li>
+              <li>diverse tech stack</li>
+              <li>lack of design system experience</li>
             </ul>
+            <p>We learned and are still learning while working on the large machinery that is <a href="my.clevelandclinic.org/" target="_blank" rel="noopener noreferrer">my.clevelandclinic.org</a>.</p>
           </div>
           <div className="col-12 col-lg-5 align-self-center offgrid">
             <figure className="offgrid-right">
               <Image src="/design_system_workflow_and_tooling.PNG" className="img-hero" width={1140} height={617} alt="Design system workflow and tooling wireframe" />
-              <figcaption>Design system discovery process at Cleveland Clinic.</figcaption>
+              <figcaption>Design system discovery process.</figcaption>
             </figure>
           </div>
         </article>
@@ -127,7 +126,7 @@ const Projects = () => {
           <header className="row justify-content-md-center text-center mb-5">
             <div className="col col-lg-8">
               <h2 className="text-3xl">Web Development</h2>
-              <p>As a part of an agile development team, I'm building and working on enterprise-grade software systems built on top of the Microsoft .NET stack. As a front-end developer, I believe in web standards, performance, and accessibility to create more inclusive and faster experiences for our visitors.</p>
+              <p>As a part of an agile development team at Cleveland Clinic, I'm building and working on enterprise-grade software systems built on top of the Microsoft .NET stack. As a front-end developer, I believe in web standards, performance, and accessibility to create more inclusive and faster experiences for our visitors.</p>
             </div>
           </header>
 
@@ -135,28 +134,28 @@ const Projects = () => {
             <div className="col-12 col-sm-6 col-lg-4 mb-5">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/polychem.jpg" layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/polychem.jpg" layout="fill" objectFit="contain" alt="Product landing page" />
                 </div>
                 <div className="card__title text-xl">Polychem</div>
-                <div className="text-base px-2">For the last 3 years I have been working for Cleveland Clinic.</div>
+                <div className="text-base px-2">Polychem.com was my first agency project. I worked on web design, front-end, and Umbraco back-end development. Polychem.com was also the first product-oriented website I have built.</div>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-lg-4 mb-5">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">BCT Security</div>
-                <div className="text-base px-2">Developing both Umbraco back office and front-end of the site. Technologies used: HTML, CSS, JS, VisualStudio, Razor, Umbraco CMS, Git and others.</div>
+                <div className="text-base px-2">Smaller in scale but similar in the tech stack. I developed both the Umbraco back-office and front-end for the BCT Security website. This was the first time I had embedded dynamic Google maps inside the CMS.</div>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="card text-center">
                 <div className="card__image">
-                  <Image className="" src="/rovisys.jpg" layout="fill" objectFit="contain" alt="" />
+                  <Image className="" src="/rovisys.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">Rovisys</div>
-                <div className="text-base px-2">https://www.rovisys.com/ is the first web design, front and back-end developemnt project I worked on, and learned most the most about Umbraco .NET development, back-office structure, data types, templates and all other good stuff.</div>
+                <div className="text-base px-2">Rovisys was my last web development project before joining the Cleveland Clinic. At some point in time, every page on the website was loading under 2s.</div>
               </div>
             </div>
           </div>

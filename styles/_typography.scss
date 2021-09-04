@@ -16,6 +16,16 @@ p, div {
   letter-spacing: -.025rem;
 }
 
+.bolded-list {
+  font-weight: 700;
+  list-style-type: "＃";
+  line-height: 1.5;
+
+  li {
+    padding-left: .25rem;
+  }
+}
+
 .text {
   font-size: 1.25rem;
   line-height: 1.75rem;

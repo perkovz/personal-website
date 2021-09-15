@@ -153,7 +153,7 @@ const Projects = () => {
                   <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">BCT Security</div>
-                <div className="text-base px-2">Smaller in scale, built on top of the.NET tech stack. I developed both the Umbraco back-office and front-end for the BCT Security website. This was the first time I had embedded dynamic Google maps inside the CMS.</div>
+                <div className="text-base px-2">Smaller in scale, built on top of the.NET tech stack. I developed both the Umbraco back-office, front-end for the BCT Security website. This was the first time I had embedded dynamic Google maps inside the CMS and built priority style navigation.</div>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-lg-4">
@@ -162,7 +162,7 @@ const Projects = () => {
                   <Image className="" src="/rovisys.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">Rovisys</div>
-                <div className="text-base px-2">Rovisys was my last web development project before joining the Cleveland Clinic. Fun fact about production code: upon deployment, every page on the website was loading under 2s.</div>
+                <div className="text-base px-2">Rovisys was my last web development project before joining the Cleveland Clinic. Fun fact about production code: upon deployment, every page on the website was loading under 2s. Other fundamental features are bold typography, large imagery, and an advanced navigation system.</div>
               </div>
             </div>
           </div>

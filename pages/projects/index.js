@@ -112,7 +112,13 @@ const Projects = () => {
           <div className="col-12 col-md-6 align-self-center">
             <h3 className="text-2xl">Provider Services</h3>
             <p>Provider Services proprietary software called Cure is a web application for managing insurance data, patients, and long-term care facilities.</p>
-            <p>My role in the application update was front-end development, UX, and UI design. <a href="https://www.behance.net/gallery/73221473/Cure-Webapp-UX-Design-Case-Study" target="_blank" rel="noreferrer">Read the case study here.</a></p>
+            <p>My role in the application update was front-end development, UX, and UI design.</p>
+            <ul className="bolded-list">
+              <li>UI design (Adobe XD)</li>
+              <li>UI design (Adobe XD, Adobe Illustrator)</li>
+              <li>UI development (JavaScript, jQuery</li>
+            </ul>
+            <a href="https://www.behance.net/gallery/73221473/Cure-Webapp-UX-Design-Case-Study" target="_blank" rel="noreferrer">Read the case study here.</a>
           </div>
           <div className="col-12 col-md-6 align-self-center offgrid">
             <figure className="offgrid-right">
@@ -147,7 +153,7 @@ const Projects = () => {
                   <Image className="" src="/bct.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">BCT Security</div>
-                <div className="text-base px-2">Smaller in scale but similar in the tech stack. I developed both the Umbraco back-office and front-end for the BCT Security website. This was the first time I had embedded dynamic Google maps inside the CMS.</div>
+                <div className="text-base px-2">Smaller in scale, built on top of the.NET tech stack. I developed both the Umbraco back-office and front-end for the BCT Security website. This was the first time I had embedded dynamic Google maps inside the CMS.</div>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-lg-4">
@@ -156,7 +162,7 @@ const Projects = () => {
                   <Image className="" src="/rovisys.jpg" layout="fill" objectFit="contain" alt="Home page with the billboard" />
                 </div>
                 <div className="card__title text-xl">Rovisys</div>
-                <div className="text-base px-2">Rovisys was my last web development project before joining the Cleveland Clinic. At some point in time, every page on the website was loading under 2s.</div>
+                <div className="text-base px-2">Rovisys was my last web development project before joining the Cleveland Clinic. Fun fact about production code: upon deployment, every page on the website was loading under 2s.</div>
               </div>
             </div>
           </div>
@@ -166,7 +172,7 @@ const Projects = () => {
 
       <section className="row justify-content-center mb-5 p-5 bg-gray">
         <div className="col-12 col-md-8 text-center mb-5">
-          <h2 className="text-3xl">Check out my other projects on Behance</h2>
+          <h2 className="text-3xl">Check out my other projects, and Case studies on Behance</h2>
           <div className="">
             <Link href="/projects">
               <a className="btn-link text text-lg" href="https://www.behance.net/zperkovic">go to Behance</a>
@@ -180,7 +186,7 @@ const Projects = () => {
           <header className="row justify-content-md-center text-center mb-5">
             <div className="col col-lg-8">
               <h2 className="text-3xl">Motion Graphics</h2>
-              <p>Even though I'm no longer working as a motion graphics designer, I still feel attachment and attraction towards my old projects. I want to share three short animated movies we made for DayGlo's color corp. The idea was to represent a historical continuum from the very beginnings to the cooperation with Reebok. My roles in the project included art direction, illustration, and animation.</p>
+              <p>Even though I'm no longer working as a motion graphics designer, I still feel attachment and attraction towards my old projects. I want to share three short animated movies we made for DayGlo's color corp. The idea was to represent a historical continuum from humble beginnings to the modern days. My roles in the project included <strong>art direction</strong>, <strong>illustration</strong>, and <strong>animation</strong>.</p>
             </div>
           </header>
 

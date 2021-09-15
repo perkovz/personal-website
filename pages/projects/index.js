@@ -14,7 +14,7 @@ const Projects = () => {
       <header className="row justify-content-md-center text-center mb-5">
         <div className="col col-lg-8 mb-4">
           <h1 className="text-4xl">Projects</h1>
-          <div className="text">I worked on the projects that scoped from small single-page apps to huge data-driven websites, culminating my current work for Cleveland Clinic. As you scroll down the page, you will be taken back in time, from the most recent to my older projects.</div>
+          <div className="text">I worked on the projects that scoped from small single-page apps to huge data-driven websites, culminating my current work for Cleveland Clinic. I enjoy building systems from scratch and using my broad range of design and development skills to solve complex issues.</div>
         </div>
         <figure>
           <Image src="/design_to_dev_process.jpg" className="img-hero" width={1140} height={617} alt="Figma project full view" />
